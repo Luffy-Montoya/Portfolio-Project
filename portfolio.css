@@ -90,6 +90,7 @@ h2{
   width: 100%;
   background: rgb(70,70,70);
   color: rgb(220,220,220);
+  display: block;
   align-items: center;
   justify-items: center;
   padding-top: 3em;
@@ -193,12 +194,14 @@ span {
   margin-bottom: 0;
   margin-top: -1em;
   justify-self: center;
+  display: flex;
 }
 
 h4 {
   font-family: sans-serif;
   margin-bottom: 2.5em;
   justify-self: center;
+  display: flex;
 }
 
 #socials {
