@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  
+  header {
+    width: 100%;
+    height: 3em;
+    background: rgb(100,100,100);
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: Georgia;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0 2px 5px 0 rgb(0,0,0,.5);
+  }
+  
+  #homebar {
+    margin-left: 1.5em;
+  }
+  
+  
+  #name a{
+    color: rgb(230,230,230);
+    font-size: 2rem;
+    transition: .2s;
+  }
+  
+  #name a:hover{
+    color: rgb(255,150,150);
+    transition: .2s;
+  }
+  
+  #navbar {
+    margin-top: .1em;
+    margin-right: 1.5em;
+    margin-left: auto;
+  }
+  
+  #menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    margin-left: 2em;
+    color: rgb(230,230,230);
+    font-size: 1.5rem;
+    transition: .2s;
+  }
+  
+  .work:hover {
+    color: rgb(150,150,255);
+    transition: .2s;
+  }
+  
+  .contact-me:hover {
+    color: rgb(150,200,150);
+    transition: .2s;
+  }
+  
+  #welcome-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(70,70,70);
+    background: rgb(235,235,235);
+    font-family: sans-serif;
+  }
+  
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem
+  }
+  
+  h2{
+    font-size: 2.1rem;
+    opacity: 85%;
+  }
+  
+  #projects {
+    background: rgb(70,70,70);
+    color: rgb(220,220,220);
+    align-items: center;
+    justify-items: center;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    font-family: sans-serif;
+    box-shadow: 0px 0px 15px 0 rgb(100,100,100,1);
+    z-index: 1; 
+    position: relative;
+  }
+  
+  h3 {
+    width: 17em;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    padding-bottom: .5em;
+    border-bottom: 2px solid rgb(100,100,100);
+  }
+  
+  h4 {
+    font-size: 2rem;
+    margin-top: .5em;
+  }
+  
+  .project-tile {
+    height: 24em;
+    width: 28em;
+    display: grid;
+    margin: 2em;
+    justify-items: center;
+    border-radius: 5px;
+    border: 6px solid rgb(50,50,50);
+    box-shadow: 0 -3px 15px 0 rgb(0,0,0,.8);
+    overflow: hidden;
+    background: rgb(50,50,50);
+  }
+  
+  .project-tile:hover #project-name{
+    text-shadow: 0 0 10px rgb(255,255,255.9);
+    transition: 1s;
+  }
+  
+  span {
+    opacity: 0%;
+    transition: .5s;
+  }
+  
+  .project-tile:hover span{
+    opacity: 100%;
+    transition: 1.5s;
+  }
+  
+  .screenshot {
+    width: 100%;
+    height: 80%;
+    filter: grayscale(10%);
+    border-radius: 5px 5px 0 0;
+  }
+  
+  #actual-projects {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 2em; 
+  }
+  
+  #project-name {
+    align-content: center;
+    color: rgb(220,220,220);
+    font-size: 1.8rem;
+    font-weight: bold;
+    transition: all .5s;
+  }
+  
+  #name-box {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  
+    background: rgb(50,50,50);
+    font-family: Helvetica;
+  }
+  
+  #contact {
+    height: 30vw;
+    width: 100%;
+    align-content: center;
+    justify-items: center;
+    color: rgb(70,70,70);
+    background: rgb(235,235,235);
+    position: relative;
+  }
+  
+  #join {
+    border: none;
+    font-family: sans-serif;
+  }
+  
+  h4 {
+    font-family: sans-serif;
+  }
+  
+  #socials {
+    margin-top: 3em;
+  }
+  
+  .fab {
+    margin: 0 1em 0 1em;
+    font-size: 1.5rem;
+    color: rgb(100,100,100);
+    transition: .2s;
+  }
+  
+  .fa-facebook-f:hover {
+    color: rgb(150,150,255);
+    transition: .2s;
+  
+  }
+  
+  .fa-instagram:hover {
+    color: rgb(255,150,150);
+    transition: .2s;
+  }
+  
+  .fa-github:hover {
+    color: rgb(120,210,120);
+    transition: .2s;
+  }
+  
+  .fa-free-code-camp:hover {
+    color: rgb(230,150,0);
+    transition: .2s;
+  }
+  
+  @media only screen and (max-width: 1015px) {
+    #actual-projects {
+      display: block;
+    }
+  
+    #projects {
+      padding-bottom: 1em;
+      padding-top: 2em;
+    }
+  
+    h3 {
+      margin-bottom: 1.5em;
+    }
+  } 
