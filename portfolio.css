@@ -184,10 +184,12 @@ span {
   border: none;
   font-family: sans-serif;
   margin-bottom: 0;
+  margin-top: -1em;
 }
 
 h4 {
   font-family: sans-serif;
+  margin-bottom: 2.5em;
 }
 
 #socials {
