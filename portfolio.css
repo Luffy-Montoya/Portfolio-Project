@@ -278,6 +278,7 @@ h4 {
   h3 {
     width: 16em;
     font-size: 1.7rem;
+    justify-self: center;
   }
 
   #join {
@@ -293,6 +294,12 @@ h4 {
 
   .fab {
     margin: 0 .3em 0 .3em;
+  }
+  
+  #socials {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    row-gap: 1em;
   }
 
   #contact {
