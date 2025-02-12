@@ -88,9 +88,9 @@ h2{
 
 #projects {
   width: 100%;
+  height: auto;
   background: rgb(70,70,70);
   color: rgb(220,220,220);
-  display: block;
   align-items: center;
   justify-items: center;
   padding-top: 3em;
@@ -178,7 +178,7 @@ span {
 }
 
 #contact {
-  height: 30vw;
+  height: 25em;
   width: 100%;
   align-content: center;
   justify-items: center;
@@ -194,14 +194,12 @@ span {
   margin-bottom: 0;
   margin-top: -1em;
   justify-self: center;
-  display: flex;
 }
 
 h4 {
   font-family: sans-serif;
   margin-bottom: 2.5em;
   justify-self: center;
-  display: flex;
 }
 
 #socials {
