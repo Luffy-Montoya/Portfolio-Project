@@ -160,9 +160,16 @@ span {
   transition: .8s;
 }
 
-.project-tile:hover{
+.project-tile:hover {
   box-shadow: 0 -3px 15px 0 rgb(50,15,100,1);
-  transition: 2s;
+  background: rgb(45,45,45);
+  border: 6px solid rgb(45,45,45);
+  transition: .8s;
+}
+
+.project-tile:hover #name-box {
+  background: rgb(45,45,45);
+  transition: .8s;
 }
 
 .screenshot {
@@ -184,7 +191,7 @@ span {
   color: rgb(220,220,220);
   font-size: 1.8rem;
   font-weight: bold;
-  transition: all .5s;
+  transition: .5s;
 }
 
 #name-box {
@@ -195,6 +202,7 @@ span {
   justify-content: center;
   background: rgb(50,50,50);
   font-family: Helvetica;
+  transition: .5s;
 }
 
 #contact {
