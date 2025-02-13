@@ -150,9 +150,27 @@ h4 {
   transition: 1s;
 }
 
-span {
+.survey span {
+  opacity: 0%;
+  color: rgb(30,225,70);
+  transition: .5s;
+}
+
+.tribute span {
   opacity: 0%;
   color: rgb(150,50,255);
+  transition: .5s;
+}
+
+.technical span {
+  opacity: 0%;
+  color: rgb(255,60,60);
+  transition: .5s;
+}
+
+.product span {
+  opacity: 0%;
+  color: rgb(225,225,50);
   transition: .5s;
 }
 
@@ -161,8 +179,29 @@ span {
   transition: .8s;
 }
 
-.project-tile:hover {
+.survey:hover {
+  box-shadow: 0 0px 15px 0 rgb(150,255,200,.8);
+  background: rgb(45,45,45);
+  border: 6px solid rgb(45,45,45);
+  transition: .8s;
+}
+
+.tribute:hover {
   box-shadow: 0 0px 15px 0 rgb(200,150,255,.8);
+  background: rgb(45,45,45);
+  border: 6px solid rgb(45,45,45);
+  transition: .8s;
+}
+
+.technical:hover {
+  box-shadow: 0 0px 15px 0 rgb(255,170,170,.8);
+  background: rgb(45,45,45);
+  border: 6px solid rgb(45,45,45);
+  transition: .8s;
+}
+
+.product:hover {
+  box-shadow: 0 0px 15px 0 rgb(225,225,150,.8);
   background: rgb(45,45,45);
   border: 6px solid rgb(45,45,45);
   transition: .8s;
