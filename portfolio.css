@@ -215,7 +215,7 @@ h4 {
 .screenshot {
   width: 100%;
   height: 80%;
-  filter: grayscale(15%);
+  filter: grayscale(15%) blur(0.5px);
   opacity: 85%;
   border-radius: 5px 5px 0 0;
   transition: .5s;
